@@ -68,7 +68,7 @@ if (license && licenseBadges.hasOwnProperty(license.toLowerCase())) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.Title}
 ${renderLicenseBadge(data.license)}
 # Description 
 ${data.description}
@@ -80,13 +80,13 @@ ${data.description}
 * [Tests](#tests)
 * [Questions](#questions)
 # Installation 
-The following steps are required to install this project ${data.Installation}
+The following is required for this project ${data.Installation}
 # Usage 
 These are the instrcutions and examples for use ${data.Usage}
 # License 
 This project is licensed under ${data.License}
 # Contribute 
-These are the guidelines on how you can contribute to this project ${data.Contribute}
+These are the guidelines to follow when contributing to this project ${data.Contribute}
 # The following examples show how to run this application ${data.Tests}
 # If you have any questions, please reach out at ${data.Questions}
 `;
