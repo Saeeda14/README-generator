@@ -69,9 +69,9 @@ if (license && licenseBadges.hasOwnProperty(license.toLowerCase())) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.Title}
-${renderLicenseBadge(data.license)}
+${renderLicenseBadge(data.License)}
 # Description 
-${data.description}
+${data.Description}
 # Table of Contents 
 * [Installation](#installation)
 * [Usage](#usage)
