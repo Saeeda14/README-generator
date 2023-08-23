@@ -80,15 +80,17 @@ ${data.Description}
 * [Tests](#tests)
 * [Questions](#questions)
 # Installation 
-The following is required for this project ${data.Installation}
+The following is required for this project: ${data.Installation}
 # Usage 
 These are the instrcutions and examples for use ${data.Usage}
 # License 
 This project is licensed under ${data.License}
 # Contribute 
 These are the guidelines to follow when contributing to this project ${data.Contribute}
-# The following examples show how to run this application ${data.Tests}
-# If you have any questions, please reach out at ${data.Questions}
+# Tests
+To run this app you need to use:  ${data.Tests}
+# Questions
+If you have any questions, please reach out at ${data.Questions}
 `;
 }
 
